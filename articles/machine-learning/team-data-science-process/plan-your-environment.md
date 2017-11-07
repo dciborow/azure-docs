@@ -88,7 +88,7 @@ For information on the limitations of other Azure services used in the analytics
 2. What will be the expected output from the scoring call?
 3. What are corner cases that can be encountered? For example, if a user ID is used, should the output be different if the ID is not found?
 4. What are the execution requriements for a scoring call? For example, how quickly will it need to complete to avoid timeouts?
-For a description, see [Tasks to prepare data for enhanced machine learning](prepare-data.md).
+For a description, see [Tasks to prepare automated testing for model scoring](prepare-data.md).
    
 ## Tools and languages questions
 There are lots of options here depending on what languages and development environments or tools you need or are most conformable using.
