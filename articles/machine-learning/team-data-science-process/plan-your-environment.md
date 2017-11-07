@@ -81,14 +81,14 @@ For information on the limitations of other Azure services used in the analytics
 ## Data quality questions: exploration and pre-processing
 1. **What do you know about your data?** Explore data when you need to gain an understand its basic characteristics. What patterns or trends it exhibits, what outliers is has or how many values are missing. This step is important for determining the extent of pre-processing needed, for formulating hypotheses that could suggest the most appropriate features or type of analysis, and for formulating plans for additional data collection. Calculating descriptive statistics and plotting visualizations are useful techniques for data inspection. For details of how to explore a dataset in various Azure environments, see [Explore data in the Team Data Science Process](explore-data.md).
 2. **Does the data require pre-processing or cleaning?**
-   Pre-processing and cleaning data are important tasks that typically must be conducted before dataset can be used effectively for machine learning. Raw data is often noisy and unreliable, and may be missing values. Using such data for modeling can produce misleading results. For a description, see [Tasks to prepare data for enhanced machine learning](prepare-data.md).
+   Pre-processing and cleaning data are important tasks that typically must be conducted before dataset can be used effectively for machine learning. Raw data is often noisy and unreliable, and may be missing values. Using such data for modeling can produce misleading results. For a description, see [Tasks to prepare automated testing for model scoring](model-integration-testing.md).
 
 ## Model scoring questions: how will the model be used?
 1. What will the inputs to the scoring call be?    For example, will the sytem provide a user id that needs to be looked up, or will the look up be performed before hand?
 2. What will be the expected output from the scoring call?
 3. What are corner cases that can be encountered? For example, if a user ID is used, should the output be different if the ID is not found?
 4. What are the execution requriements for a scoring call? For example, how quickly will it need to complete to avoid timeouts?
-
+For a description, see [Tasks to prepare data for enhanced machine learning](prepare-data.md).
    
 ## Tools and languages questions
 There are lots of options here depending on what languages and development environments or tools you need or are most conformable using.
