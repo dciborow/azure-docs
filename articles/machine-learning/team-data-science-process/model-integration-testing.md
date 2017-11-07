@@ -17,10 +17,10 @@ ms.date: 11/07/2017
 ms.author: dciborow
 
 
-##Testing Scoring Service Input
+## Testing Scoring Service Input
 
-##Testing Scoring Service Output
+## Testing Scoring Service Output
 
-##Testing Scoring Service Corner Cases
+## Testing Scoring Service Corner Cases
 
-##Testing Scoring Service Integration Performance
+## Testing Scoring Service Integration Performance
