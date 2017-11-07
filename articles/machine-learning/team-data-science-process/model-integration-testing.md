@@ -1,4 +1,4 @@
----
+--
 title: Tasks to prepare automated testing for model scoring - Azure | Microsoft Docs
 description: Automate integration testing using the following how to guide. 
 services: machine-learning
@@ -20,7 +20,7 @@ ms.author: dciborow
 This document assumes that you have an Azure subscription, and that the project lead has created a project repostiroy using VSTS.
 
 * To set up an Azure subscription, see [Free one-month trial](https://azure.microsoft.com/pricing/free-trial/).
-* For directions on creating a project reposiitory see [Project Lead Tasks] (project-lead-tasks.md#repositories-and-directories)
+* For directions on creating a project reposiitory see [Project Lead Tasks](project-lead-tasks.md#repositories-and-directories)
 
 
 ## Testing Scoring Service Input
