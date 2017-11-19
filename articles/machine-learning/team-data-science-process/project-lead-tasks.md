@@ -12,7 +12,7 @@ ms.workload: data-services
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 09/04/2017
+ms.date: 11/13/2017
 ms.author: bradsev;
 
 ---
@@ -206,6 +206,7 @@ You now need to push contents in **_DSProject1_** to _R5_ repository in your tea
 
 ![15](./media/project-lead-tasks/project-leads-15-git-config-name.png)
 
+## 1. Add Gate to Master Branch
 
 ## 6. Create and mount Azure file storage as project resources (Optional)
 
