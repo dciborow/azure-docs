@@ -1,4 +1,4 @@
-    ---
+---
 title: How to create AZTK Batch cluster as compute target for Azure ML
 description: Create AZTK Batch cluster as compute targets for Azure ML experimentation. 
 services: machine-learning
