@@ -23,8 +23,8 @@ You can easily scale up or scale out your machine learning experiment by adding 
 This process uses the open source toolkit [AZTK](github.com/azure/aztk)
 
 ## Prereq 
-1. AML Workbench installed and project set up
-1. Created an Azure Batch account 
+1. AML Workbench [installed and project set up](https://docs.microsoft.com/en-us/azure/machine-learning/preview/quickstart-installation)
+1. Created an [Azure Batch account](https://docs.microsoft.com/en-us/azure/batch/batch-account-create-portal)
 
 ## Steps
 
@@ -89,3 +89,11 @@ az ml experiment prepare -c <my_cluster_id>
 ```bash
 az ml experiment submit -c <my_cluster_id> <mySparkJob.py>
 ```
+
+## Next steps
+
+Learn more about:
+- [Overview of Azure Machine Learning experimentation service](experimentation-service-configuration.md)
+- [Azure Machine Learning Workbench experimentation service configuration files](experimentation-service-configuration-reference.md)
+- [Azure Batch](https://azure.microsoft.com/en-us/services/batch/)
+- [AZTK](https://github.com/Azure/aztk)
