@@ -80,7 +80,7 @@ aztk spark cluster ssh --id <my_cluster_id> --no-connect
 ```
 1. Attach Compute to AML Workbench
 ```bash
-az ml computetarget attach --name <my_cluster_id> --address <IP>:<Port> --username spark --password <password> --type remotedocker
+az ml computetarget attach remotedocker --name <my_cluster_id> --address <IP>:<Port> --username spark --password <password>
 ```
 1. Prepare Azure Batch Spark cluster
 ```bash
